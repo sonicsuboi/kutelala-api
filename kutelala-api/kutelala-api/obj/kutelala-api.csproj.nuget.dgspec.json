@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Up DB to Staging\\ICD\\kutelala-api\\kutelala-api\\kutelala-api\\kutelala-api.csproj": {}
+  },
+  "projects": {
+    "E:\\Up DB to Staging\\ICD\\kutelala-api\\kutelala-api\\kutelala-api\\kutelala-api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Up DB to Staging\\ICD\\kutelala-api\\kutelala-api\\kutelala-api\\kutelala-api.csproj",
+        "projectName": "kutelala-api",
+        "projectPath": "E:\\Up DB to Staging\\ICD\\kutelala-api\\kutelala-api\\kutelala-api\\kutelala-api.csproj",
+        "packagesPath": "C:\\Users\\ISC-Leltm\\.nuget\\packages\\",
+        "outputPath": "E:\\Up DB to Staging\\ICD\\kutelala-api\\kutelala-api\\kutelala-api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ISC-Leltm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://repo-isc.fpt.net/repository/customer-accounts-receivable/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RepoDb": {
+              "target": "Package",
+              "version": "[1.13.1, )"
+            },
+            "RepoDb.SqlServer": {
+              "target": "Package",
+              "version": "[1.13.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
